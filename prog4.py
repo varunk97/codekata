@@ -1,5 +1,6 @@
 vk=input()
-if((vk>='a' and vk<='z') or (vk>='A' and vk<='Z')):
+if vk.isalpha():
     print ("Alphabet")
 else:
     print("No")
+
