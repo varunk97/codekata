@@ -1,5 +1,5 @@
 d=['a','e','i','o','u','A','E','I','O','U']
-s=str(input())
+s=input()
 if s.isalpha():
     if(s in d):
         print("Vowel")
