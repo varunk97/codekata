@@ -1,8 +1,8 @@
-a=int(input("Enter the number:"))
-if a in range(0,100000000000):
-    if(a%2==0):
-        print("Even")
-    elif(a%2!=0):
-        print("Odd")
-else :
+a=int(input(""))
+if(a%2==0 and a>0):
+    print("even")
+elif(a%2!=0 and a>0):
+    print("odd")
+else:
     print("invalid")
+
